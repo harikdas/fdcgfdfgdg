@@ -20,3 +20,5 @@ module.exports.updateProducts = (params, data) => {
 module.exports.updateProductss= (params, data) => {
     return Product.updateOne(params, data).exec();
 }
+
+// controller for product
