@@ -98,6 +98,7 @@ router.post('/', async function(req, res, next) {
 });
 
 // product image upload
+//  using multar
 
 router.post('/upload-productimages', upload.single('photo'), async function(req, res, next) {
     try {
